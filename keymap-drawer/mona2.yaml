@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - TAB
+  - {t: B, h: TAB}
   - '?'
   - N
   - M
@@ -138,7 +138,7 @@ layers:
   - {t: ▽, type: trans}
   - HOME
   - UP ARROW
-  - END
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+LEFT ARROW
@@ -159,7 +159,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - DELETE
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
