@@ -27,7 +27,7 @@ layers:
   - C
   - V
   - B
-  - {t: B, h: TAB}
+  - {t: B, h: Sft+Ctl+Gui+KP 4}
   - '?'
   - N
   - M
@@ -156,7 +156,7 @@ layers:
   - Gui+Sft+LEFT ARROW
   - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Sft+Gui+KP 4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -306,3 +306,5 @@ combos:
   k: {t: ESC, h: '4'}
 - p: [11, 12]
   k: TAB
+- p: [22, 23]
+  k: Sft+Gui+V
