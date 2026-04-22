@@ -16,7 +16,7 @@ layers:
   - D
   - F
   - G
-  - '!'
+  - Sft+Ctl+Gui+KP 4
   - H
   - J
   - K
@@ -27,8 +27,8 @@ layers:
   - C
   - V
   - B
-  - {t: B, h: Sft+Ctl+Gui+KP 4}
-  - '?'
+  - {t: B, h: Sft+TAB}
+  - Gui+[
   - N
   - M
   - ','
