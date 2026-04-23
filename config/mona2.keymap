@@ -38,6 +38,21 @@
             bindings = <&kp LS(LG(V))>;
             key-positions = <22 23>;
         };
+
+        w_back {
+            bindings = <&kp LG(LBKT)>;
+            key-positions = <17 18>;
+        };
+
+        w_front {
+            bindings = <&kp LG(RBKT)>;
+            key-positions = <18 19>;
+        };
+
+        shift+tab {
+            bindings = <&kp LS(TAB)>;
+            key-positions = <1 2>;
+        };
     };
 
     macros {
@@ -81,10 +96,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E     &kp R          &kp T                                                            &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D     &kp F          &kp G                                  &kp LS(LC(LG(NUMBER_4)))  &kp H        &kp J  &kp K      &kp L    &mt LEFT_SHIFT SEMI
-&mt LEFT_SHIFT Z  &kp X         &kp C     &kp V          &kp B        &mt LS(TAB) B             &kp LG(LBKT)              &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LALT  &kp BACKSPACE  &lt 2 SPACE  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 LANG1    &lt 1 ENTER                             &kp DELETE
+&kp Q             &kp W         &kp E     &kp R          &kp T                                                                             &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D     &kp F          &kp G                                  &mt LS(LG(NUMBER_4)) LS(LC(LG(NUMBER_4)))  &kp H        &kp J  &kp K      &kp L    &mt LEFT_SHIFT SEMI
+&mt LEFT_SHIFT Z  &kp X         &kp C     &kp V          &kp B        &mt LC(HOME) B            &kp LG(T)                                  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LALT  &kp BACKSPACE  &lt 2 SPACE  &lt_to_layer_0 3 LANG2    &lt_to_layer_0 3 LANG1                     &lt 1 ENTER                             &kp DELETE
             >;
 
             sensor-bindings = <&scroll_up_down>;
